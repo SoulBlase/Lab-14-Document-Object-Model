@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Hello </title>
+  </head>
+  <body>
+    <h1 id="greeting"> Welcome! </h1>
+    <p> These game projects are all demos. </p>
+    <p> However, artists and developers are still working on their games. </p>
+    <script type="text/javascript">
+      document.title = "SoulBlazer's Game Playground";
+      console.log(document.title);
+      var h1 = document.getElementById("greeting");
+      h1.id; // =>"greeting"
+      h1.innerText = "Check out the games I and others have made. Enjoy!";
+      document.title = "Ultimate Game Projects.";
+      var paraground = document.getElementsByTagName("hi");
+      var element = document.createElement("h1");
+      element.innerHTML = "SoulBlazer's Games";
+      document.body.appendChild(element);
+    </script>
+  </body>
+</html>
